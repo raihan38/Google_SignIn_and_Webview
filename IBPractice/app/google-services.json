@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "714764473353",
+    "project_id": "ib-practice-1",
+    "storage_bucket": "ib-practice-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714764473353:android:2c3ca93ef54232145214d8",
+        "android_client_info": {
+          "package_name": "com.example.ibpractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714764473353-ruualpm498ffvjql9dt6p3i714pvvflu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ibpractice",
+            "certificate_hash": "7f49b9f9c1d3908975499d930c1b3bf3ee89200e"
+          }
+        },
+        {
+          "client_id": "714764473353-gm4bn6loadg5t0mfleil0cmork2tf85n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5458dJYHn5aiSci0lYOwX44u2L0xakEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714764473353-gm4bn6loadg5t0mfleil0cmork2tf85n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GoogleAuthentication"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:background="@color/white">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio"
+        android:text="SIGN UP"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/acarisansbold"
+        android:textSize="20sp"
+        android:textColor="@color/ivory"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OR SIGN IN USING"
+            android:textColor="@color/blueg"
+            android:fontFamily="@font/acarisansbold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/googleSignIn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/googlelogo" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/facebook"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="20dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:src="@drawable/twitter"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
